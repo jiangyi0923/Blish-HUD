@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutAnetNotice" xml:space="preserve">
+    <value>©2010-{0}ArenaNet, LLC.保留所有权利。激战，激战2，荆棘之心
+
+激战2:火焰之路，ArenaNet, NCSOFT，连锁NC Logo，以及所有相关的
+
+商标和设计是NCSOFT公司的商标或注册商标。所有其他的
+
+商标是其各自所有者的财产。</value>
+  </data>
+  <data name="AboutLoveMessage" xml:space="preserve">
+    <value>用提利亚所有的爱设计和建造的
+
+Blish HUD团队有更多的帮助!
+汉化来自 激战2印度神油君</value>
+  </data>
+  <data name="AboutSection" xml:space="preserve">
+    <value>关于</value>
+    <comment>在设置中显示的关于菜单项和部分的名称。</comment>
+  </data>
+  <data name="ConnectionStatus_ArcDPSBridge_Connected" xml:space="preserve">
+    <value>通过桥接插件连接到ArcDPS。</value>
+  </data>
+  <data name="ConnectionStatus_ArcDPSBridge_Disconnected" xml:space="preserve">
+    <value>没有从网桥接收到连接。
+
+
+
+它可能没有安装。</value>
+  </data>
+  <data name="ConnectionStatus_ArcDPSBridge_Name" xml:space="preserve">
+    <value>ArcDPS Bridge 插件</value>
+  </data>
+  <data name="ConnectionStatus_Mumble_Connected" xml:space="preserve">
+    <value>连接到名称为“{0}”的MumbleLink。</value>
+  </data>
+  <data name="ConnectionStatus_Mumble_Disconnected" xml:space="preserve">
+    <value>无法连接到名称为“{0}”的MumbleLink。
+
+
+
+检查使用了什么启动参数
+
+同时推出激战2和Blish HUD。</value>
+  </data>
+  <data name="ConnectionStatus_Mumble_Name" xml:space="preserve">
+    <value>MumbleLink</value>
+  </data>
+  <data name="HomeTab" xml:space="preserve">
+    <value>主页</value>
+    <comment>当鼠标悬停在选项卡上时，主选项卡中的Blish HUD选项卡窗口显示的名称。</comment>
+  </data>
+  <data name="OverlaySettingsSection" xml:space="preserve">
+    <value>覆盖设置</value>
+    <comment>设置中显示的覆盖设置菜单项和部分的名称。</comment>
+  </data>
+  <data name="Setting_AppCulture_Description" xml:space="preserve">
+    <value>确定显示Blish HUD文本和向GW2 web API发出请求时使用的语言。</value>
+  </data>
+  <data name="Setting_AppCulture_DisplayName" xml:space="preserve">
+    <value>应用程序和API语言</value>
+  </data>
+  <data name="Setting_AudioDevice_Description" xml:space="preserve">
+    <value>这决定了Blish HUD使用的音频输出设备。Gw2OutputDevice调整自己以适应GW2正在使用的任何设备。</value>
+  </data>
+  <data name="Setting_AudioDevice_DisplayName" xml:space="preserve">
+    <value>音频输出设备</value>
+  </data>
+  <data name="Setting_CloseWindowOnEscape_Description" xml:space="preserve">
+    <value>当聚焦和退出键被按下时，关闭Blish窗口</value>
+  </data>
+  <data name="Setting_CloseWindowOnEscape_DisplayName" xml:space="preserve">
+    <value>退出时关闭窗口</value>
+  </data>
+  <data name="Setting_DynamicHUDMenuBar_Description" xml:space="preserve">
+    <value>控制位于屏幕左上方的菜单栏的可见性。</value>
+  </data>
+  <data name="Setting_DynamicHUDMenuBar_DisplayName" xml:space="preserve">
+    <value>动态HUD菜单栏</value>
+  </data>
+  <data name="Setting_HideInterfaceKeybind_Description" xml:space="preserve">
+    <value>截屏时隐藏所有界面</value>
+  </data>
+  <data name="Setting_HideInterfaceKeybind_DisplayName" xml:space="preserve">
+    <value>隐藏界面</value>
+  </data>
+  <data name="Setting_ShowInTaskbar_Description" xml:space="preserve">
+    <value>启用后，在运行时，Blish HUD将显示在任务栏中。</value>
+  </data>
+  <data name="Setting_ShowInTaskbar_DisplayName" xml:space="preserve">
+    <value>在任务栏中显示</value>
+  </data>
+  <data name="Setting_StayInTray_Description" xml:space="preserve">
+    <value>如果为真，当GW2关闭时，Blish HUD将自动最小化，并将继续运行，直到GW2再次启动。
+
+你也可以使用托盘中的Blish HUD图标来启动激战2。</value>
+  </data>
+  <data name="Setting_StayInTray_DisplayName" xml:space="preserve">
+    <value>当激战2关闭时最小化到托盘。</value>
+  </data>
+  <data name="Setting_ToggleBlishWindowKeybind_Description" xml:space="preserve">
+    <value>设置按键绑定切换Blish HUD的主窗口</value>
+  </data>
+  <data name="Setting_ToggleBlishWindowKeybind_DisplayName" xml:space="preserve">
+    <value>切换Blish HUD窗口</value>
+  </data>
+  <data name="Setting_UseGameVolume_Description" xml:space="preserve">
+    <value>当启用时，Blish HUD将调整它的音量到游戏音频。</value>
+  </data>
+  <data name="Setting_UseGameVolume_DisplayName" xml:space="preserve">
+    <value>使用游戏音量</value>
+  </data>
+  <data name="Setting_Volume_Description" xml:space="preserve">
+    <value>确定Blish HUD的音量。只有当“使用游戏音量”被禁用时才有效果。</value>
+  </data>
+  <data name="Setting_Volume_DisplayName" xml:space="preserve">
+    <value>音量</value>
+  </data>
+</root>

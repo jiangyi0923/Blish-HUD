@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountInfo_Character" xml:space="preserve">
+    <value>字符</value>
+  </data>
+  <data name="AccountInfo_Commander" xml:space="preserve">
+    <value>指挥官</value>
+  </data>
+  <data name="CreateTokenInstructions_Step1" xml:space="preserve">
+    <value>打开官方申请页面。</value>
+  </data>
+  <data name="CreateTokenInstructions_Step2" xml:space="preserve">
+    <value>点击“新键”。</value>
+  </data>
+  <data name="CreateTokenInstructions_Step3" xml:space="preserve">
+    <value>选择所有权限并按“创建API密钥”按钮。</value>
+  </data>
+  <data name="CreateTokenInstructions_Step4" xml:space="preserve">
+    <value>复制新密钥。</value>
+  </data>
+  <data name="CreateTokenInstructions_Step5" xml:space="preserve">
+    <value>将键粘贴到上面的字段和
+
+按“注册”.</value>
+  </data>
+  <data name="CreateTokenInstructions_Warning" xml:space="preserve">
+    <value>您可以在没有所有权限的情况下注册一个密钥，但有一些权限
+
+特性和模块可能无法正常工作。至少，“帐户”和“字符”权限
+
+是必需的。</value>
+  </data>
+  <data name="Link_ManageApplications" xml:space="preserve">
+    <value>管理应用程序</value>
+  </data>
+  <data name="ManageApiKeysSection" xml:space="preserve">
+    <value>管理API密钥</value>
+  </data>
+  <data name="ManageApiKeys_DeleteToken" xml:space="preserve">
+    <value>删除令牌</value>
+  </data>
+  <data name="ManageApiKeys_Register" xml:space="preserve">
+    <value>注册</value>
+  </data>
+  <data name="ManageApiKeys_Title" xml:space="preserve">
+    <value>注册API密匙</value>
+  </data>
+  <data name="TokenPermissionDescription_Account" xml:space="preserve">
+    <value>您的帐户显示名称，ID，主世界，和公会列表。</value>
+  </data>
+  <data name="TokenPermissionDescription_Builds" xml:space="preserve">
+    <value>你目前装备的专业技能，特性，技能和所有游戏模式的装备。</value>
+  </data>
+  <data name="TokenPermissionDescription_Characters" xml:space="preserve">
+    <value>角色的基本信息。</value>
+  </data>
+  <data name="TokenPermissionDescription_Guilds" xml:space="preserve">
+    <value>你所加入的所有公会的名册，历史和mods。</value>
+  </data>
+  <data name="TokenPermissionDescription_Inventories" xml:space="preserve">
+    <value>你的帐户银行，材料储存，配方解锁和角色库存。</value>
+  </data>
+  <data name="TokenPermissionDescription_Progression" xml:space="preserve">
+    <value>你的成就，地下城解锁状态，精通点分配和一般PvE进度。</value>
+  </data>
+  <data name="TokenPermissionDescription_Pvp" xml:space="preserve">
+    <value>你的PvP统计，比赛历史，奖励跟踪进程，和自定义竞技场细节。</value>
+  </data>
+  <data name="TokenPermissionDescription_Tradingpost" xml:space="preserve">
+    <value>你的交易站交易。</value>
+  </data>
+  <data name="TokenPermissionDescription_Unlocks" xml:space="preserve">
+    <value>你的衣柜可以打开-皮肤，染料，迷你宠物，整理，等等-和目前装备的皮肤。</value>
+  </data>
+  <data name="TokenPermissionDescription_Wallet" xml:space="preserve">
+    <value>您的帐户的钱包。</value>
+  </data>
+  <data name="TokenStatus_AccountFailed" xml:space="preserve">
+    <value>获取帐户详细信息失败</value>
+  </data>
+  <data name="TokenStatus_FailedToLoad" xml:space="preserve">
+    <value>加载令牌失败。</value>
+  </data>
+  <data name="TokenStatus_InvalidToken" xml:space="preserve">
+    <value>无效的令牌</value>
+  </data>
+  <data name="TokenStatus_MissingMinPermission" xml:space="preserve">
+    <value>缺少必需的权限</value>
+  </data>
+  <data name="TokenStatus_PartialPermission" xml:space="preserve">
+    <value>令牌丢失的权限</value>
+  </data>
+  <data name="TokenStatus_ValidToken" xml:space="preserve">
+    <value>{0} ({1}) - 有效的令牌</value>
+  </data>
+  <data name="Token_NoName" xml:space="preserve">
+    <value>(没有名字)</value>
+  </data>
+</root>
